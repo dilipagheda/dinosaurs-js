@@ -1,0 +1,15 @@
+{
+  "name": "dinosaurs",
+  "version": "1.0.0",
+  "description": "Udacity Intermediate Javascript - First project",
+  "main": "app.js",
+  "scripts": {
+    "prettier": "npx prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.1.1"
+  }
+}
