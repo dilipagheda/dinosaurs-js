@@ -137,22 +137,20 @@ const getHumanData = (function () {
       diet: getDiet(),
     };
   }
-  function checkValidity() {
+  function generateData() {
     const info = createInfo();
     let isValid = true;
     isValid = isValid && info.name.length > 0;
     isValid = isValid && info.height > 0;
     isValid = isValid && info.weight > 0;
     isValid = isValid && info.diet.length > 0;
-    return isValid;
+    return {
+        isValid: isValid,
+        info: info,
+    };
   }
 
-  return function () {
-    return {
-      isValid: checkValidity(),
-      info: createInfo(),
-    };
-  };
+  return generateData
 })();
 
 // Generate Tiles for each Dino in Array
