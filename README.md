@@ -2,6 +2,9 @@
 
 This is the 1st project as part of Udacity Intermediate JS Nanodegree. Developed from scratch according to project rubric. It is about creating a Dinosaurs Infogram which compares the human data with predefined dinosaurs and displays in a nice grid format. The aim of the project is to practice writing plain JS using javascript design patterns such as IIFE, Module pattern, Revealing module pattern, constructor functions and prototypical inheritence.
 
+## Live URL Link
+http://dilipagheda.com/dinosaurs-js/index.html
+
 ### Big Picture
 
 You will be building an infographic that is derived from data that is provided, as well as user input data. Object-oriented javascript is great for working with complex data, but it’s not of much use without an interface to interact with. You will be pulling in information from a form and using it to complete an array of objects that will then be appended back to the DOM. 
